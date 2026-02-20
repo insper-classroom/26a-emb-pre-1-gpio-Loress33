@@ -15,4 +15,6 @@ void main(void) {
             b = 1;
         }
     }
+
+    printf("a = %d b = %d", a, b);
 }
