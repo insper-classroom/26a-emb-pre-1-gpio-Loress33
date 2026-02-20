@@ -9,7 +9,7 @@ void main(void) {
     int b = 0;
 
     while (1) {
-        a = foo(&a);
+        foo(&a);
 
         if (a > 5) {
             b = 1;
